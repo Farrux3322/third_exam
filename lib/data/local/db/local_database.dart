@@ -12,6 +12,7 @@ class LocalDatabase {
     return getInstance;
   }
 
+
   static Database? _database;
 
   Future<Database> get database async {
